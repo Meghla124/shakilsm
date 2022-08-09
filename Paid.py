@@ -1302,7 +1302,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrSዙAӃꀤŁ-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://pastebin.com/p3jbWM14").text
+	r1=requests.get("https://github.com/Meghla124/shakilsm/blob/main/Smshakil/Shakil.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
